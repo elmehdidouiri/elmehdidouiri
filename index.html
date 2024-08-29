@@ -1,213 +1,353 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio El Mehdi Douiri</title>
-</head>
+    <title>El Mehdi Douiri</title>
 
-<body>
-    <nav class="navbar">
-        <img src="image/profile-pic (1).png" alt="Photo personelle">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="#education">Educations</a></li>
-            <li><a href="#experiences">Experiences</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> El Mehdi Douiri</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
     </nav>
-    
-    <header id="home">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   
 
-        <div class="content">
-            <p class="head">Hi my name is</p><br>
-            <h1>El Mehdi Douiri</h1>
-            <h2>Developer FullStack Java</h2>
-            <p class="desc">
-                I'm a 20-year-old developer with a BTS (Higher Technician's Certificate) in Information
-                Systems Development earned in 2023. Currently, I'm pursuing a higher university degree in EST
-                on weekends while actively enrolled in the JobinTech program, specializing in full-stack Java development.
-                My portfolio showcases a range of projects reflecting my passion for software development and my commitment
-                to staying updated with the latest technologies. Each project is a testament to my curiosity, creativity, and dedication to learning. I'm eager to explore new opportunities and collaborations,
-                so feel free to browse my portfolio and reach out to discuss exciting projects.
-            </p><br>
-            <center><a href="./image/documents/cv.pdf" download="el Mehdi /cv" target="_blank" class="button">Show CV</a></center>
-        </div>
-    </header>
-    <dir></dir>
-    <section class="education" id="education">
-        <center>
-            <h2 >Education :</h2>
-            <hr>
-        </center>
-        <div class="education-item">
-            <h3>Higher university degree 2023-2024 :</h3>
-            <p><strong>Institution Name :</strong> Technology High School </p>
-            <p><strong>In-class training...</strong></p>
-            <p><strong>Description :</strong>
-                The university degree offers a thorough curriculum in computer science, encompassing C, C++, and JAVA
-                programming, database design with UML, Linux virtualization, web development, networking, security,
-                project management, and emerging technologies like ARDUINO programming for connected devices.
-            </p>
-        </div>
-        <div class="education-item">
-            <h3>Senior Technician 2021-2023 :</h3>
-            <p><strong>Institution Name :</strong> Higher technician certificate </p>
-            <p><strong>Obtained Date :</strong> June/2023</p>
-            <p><strong>Description :</strong>
-                A BTS diploma in Information Systems Development provides rigorous training in computer science and IT,
-                covering subjects like system architecture, databases, project management, and application development,
-                alongside essential language and mathematics skills.
-            </p>
-        </div>
-        <div class="education-item">
-            <h3>Baccalaureate in physical science chemistry 2021 :</h3>
-            <p><strong>Institution Name :</strong> High school Mohamed Mekki Naciry </p>
-            <p><strong>Obtained Date :</strong> June/2021</p>
-        </div>
-    </section>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2 full">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">El Mehdi</span>
+                                    <span class="animated-item"> Developer</span>
+                                    <span class="animated-item">FullStack </span>
+                                </div>
+                        </h1>
 
-    <section class="experiences" id="experiences">
-        <center>
-            <h2>Experiences</h2>
-            <hr>
-        </center>
-
-        <div class="experience-item">
-            <h3>Internship at AREF de Tanger Tetouan Alhoceima</h3>
-            <p><strong>Position :</strong> Application Developer</p>
-            <p><strong>Duration :</strong> 30 days</p>
-            <p><strong>Description :</strong>
-                I developed an application for managing imports and exports for the order office,
-                thus contributing to the efficiency of administrative operations.
-            </p>
-        </div>
-        <div class="experience-item">
-            <h3>Final Project</h3>
-            <p><strong>Event :</strong> BTS </p>
-            <p><strong>Duration :</strong> 12mois</p>
-            <p><strong>Description :</strong>
-                I created a Java-based mobile app for dairy product distribution management. Using MySQL for the backend and XML for the frontend, the app streamlines inventory, orders, and delivery logistics, offering a user-friendly solution for efficient distribution operations. 
-            </p>
-        </div>
-        <div class="experience-item">
-            <h3>Hackathon at ENSA Al Hoceima</h3>
-            <p><strong>Event :</strong> Hackathon</p>
-            <p><strong>Duration :</strong> 24h </p>
-            <p><strong>Description :</strong>
-                Participated in a hackathon at ENSA Al Hoceima, where I collaborated with a team to develop
-                an innovative solution in the field of medical consultation.
-            </p>
-        </div>
-
-      
-    </section>
-
-    <section class="skills" id="skills">
-        <center> <h2>Skills</h2>
-        <hr></center>
-    
-        <div class="skill-category">
-            <h3>Back-end Development</h3>
-            <div class="skills-list">
-                <div class="skill">Java</div>
-                <div class="skill">C</div>
-                <div class="skill">C++</div>
-                <div class="skill">VB.NET</div>
-                <div class="skill">PHP</div>
-            </div>
-        </div>
-    
-        <div class="skill-category">
-            <h3>Front-end Development</h3>
-            <div class="skills-list">
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">XML</div>
-            </div>
-        </div>
-    
-        <div class="skill-category">
-            <h3>Design & Modeling</h3>
-            <div class="skills-list">
-                <div class="skill">UML</div>
-                <div class="skill">Project Management</div>
-            </div>
-        </div>
-    
-        <div class="skill-category">
-            <h3>Network Administration</h3>
-            <div class="skills-list">
-                <div class="skill">Network Administration</div>
-            </div>
-        </div>
-    </section>
-    <section class="projects">
-        <h2>Projects</h2>
-        <center><hr></center>
- <div class="contener">
-    <div class="project">
-        <img src="image/logobureauordre.png" alt="Project 1">
-        <h3>Bureau d'ordre</h3>
-        <p>Cette application de bureau développée en VB.NET avec une base de données SQL Server vise à simplifier et à rationaliser les opérations du bureau d'ordre en automatisant la gestion des importations et des exportations. Elle offre des fonctionnalités avancées telles que la saisie et le suivi des commandes, la gestion des stocks, la génération de rapports, ainsi que la sauvegarde et la recherche facile des données. Grâce à cette application, les processus administratifs sont rationalisés, ce qui permet de gagner du temps et d'optimiser les opérations.</p>
-        <a href="https://github.com/Drelmido001/gestioncourr" target="_blank">View Project</a>
-    </div>
-    <div class="project">
-        <img src="image/logoappp.png" alt="Project 2">
-        <h3>AgroDistrub</h3>
-        <p> Cette application mobile développée en Java est conçue pour la gestion efficace de la distribution des produits laitiers. Elle offre une plateforme conviviale permettant de gérer les stocks, les commandes, les livraisons et la logistique de distribution. En utilisant une base de données MySQL pour le backend et XML pour l'interface utilisateur, l'application garantit une expérience utilisateur fluide et intuitive. Elle permet également de suivre les performances de vente, d'optimiser les itinéraires de livraison et de répondre efficacement aux demandes des clients, contribuant ainsi à une gestion efficace et rentable de la distribution des produits laitiers.</p>
-        <a href="https://github.com/Medaminebouras/pffe" target="_blank">View Project</a>
-    </div>
-
- </div>
-    </section>
-    
-
-
-    <section class="contact" id="contact">
-        <center>
-            <h2>Contact Me</h2>
-            <hr>
-        </center>
-        <div class="contact-form">
-            <form id="contact-form" action="https://formsubmit.co/elmehdidouiri99@gmail.com" method="POST">
-                <div class="form-group">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname" required placeholder="Your name">
+                        <p>Building great software is a rewarding challenge. As a Full Stack Developer with skills in Java and Angular, I am focused on creating user-friendly applications, designing clean interfaces, and developing reliable back-end systems. I am passionate about coding and enjoy turning ideas into functional and efficient web solutions.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="cv/CV_ElMehdi_Douiri.pdf" class="btn mr-lg-2 custom-btn" download="El_Mehdi_Douiri_CV.pdf">
+                            <i class='uil uil-file-alt'></i> Download Resume
+                          </a>
+                            <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="User@mail.com">
-                </div>
-                <div class="form-group">
-                    <label for="notes">Notes:</label>
-                    <textarea id="notes" name="notes" rows="4" required placeholder="Notes.."></textarea>
-                </div>
-                <button type="submit" id="submit-btn">Submit</button>
-            </form>
-            <p id="thank-you-msg" style="display: none;">Thank you for your submission!</p>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                  <div class="about-image jpg">
+                      <img src="images/image.jpg" class="img-fluid custom-image" alt="svg image">
+                  </div>
+              </div>
+              
+
+
+            </div>
         </div>
     </section>
-   
 
-    <footer>
-        <a href="https://www.linkedin.com/in/el-mehdi-douiri-b4901a261/">
-            <img src="image/linkdin.png" alt="LinkedIn">
-        </a>
-        <a href="https://github.com/Drelmido001">
-            <img src="image/github.png" alt="GitHub">
-        </a>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
-            <img src="image/gmail.png" alt="GitHub">
-        </a>    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
-    
-</body>
+    <!-- PROJECTS -->
+    <section class="project py-5" >
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
 
+                      <div class="col-lg-8 mx-auto">
+                        <h2>Things I have developed for companies </h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme mt-4">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image001.png" class="img-fluid font-img" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image002.png" class="img-fluid font-img" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image003.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image004.png" class="font-img" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image005.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image006.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image007.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image008.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image009.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image010.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image011.png" class=" font-img" alt="project image">
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2019</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
+                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2018</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
+                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>UI Freelancer</h3>
+                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2014</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
+                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2017</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
+                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2015</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
+                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2013</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
+                                <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <p class="footer-text mb-0">010 020 0960</p>
+                  <p><a href="mailto:hello@company.co">hello@company.co</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
+                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
+                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
