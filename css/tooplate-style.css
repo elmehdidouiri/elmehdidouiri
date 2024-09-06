@@ -24,6 +24,10 @@ body {
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
+.progress-bar {
+  transition: width 2s ease-in-out;
+}
+
 
 ul {
   margin: 0;
